@@ -1,0 +1,140 @@
+ @import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+ @import url(https://fonts.googleapis.com/css?family=Alfa+Slab+One);
+ @import url(https://fonts.googleapis.com/css?family=Oswald);
+ @import url(https://fonts.googleapis.com/css?family=Poiret+One);
+ @import url(https://fonts.googleapis.com/css?family=Share+Tech);
+@import url(https://fonts.googleapis.com/css?family=Tillana);
+@import
+url(https://fonts.googleapis.com/css?family=Candal);
+
+@media screen and (max-width:2000px) { 
+  .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    display: block;
+    max-width: 100%;
+    line-height: 1;
+    max-height: 1000px;
+}
+  #slogan{font-size:200%;}
+  #minigallery img {width:100px; height:auto; border-radius: 5px;}
+  
+}
+
+@media screen and (max-width: 400px) { #contax a{font-size:70%;} #contax img{width:200px;}} 
+@media screen and (min-width:320px) {.btn{font-size:200%;}}
+@media screen and (max-width: 320px) { 
+.navbar-brand img{width:80%;height:55px;margin-top:10px; z-index:2;} 
+body {width:250px;} 
+#slogan{font-size:70%;}
+.title{margin-top:20px; font-size:110%; text-align:center; font-weight:bold;}
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    display: block;
+    max-width: 100%;
+    line-height: 2;
+    max-height: 500px;
+}
+}
+
+@media screen and (max-width: 290px) { }
+
+@media screen and (min-width:240px) {.btn{display:block; width:100%;} }
+}}
+
+*{box-sizing: border-box;}
+body {font-family:"Montserrat", cursive; width:100%;}
+
+.title{margin-top:20px; font-size:300%; text-align:center; font-weight:bold;}
+
+
+.subtitle {position: relative; color:#414141;}
+
+.subtitle:after {display: inline; position: absolute; left: 0; bottom: -10px; width: 0;
+height: 20%; background-color: #414141; content: ""; transition: width 0.2s;}
+.subtitle:hover {color:#414141;}
+.subtitle:hover:after {width: 100%;}
+
+.navbar-brand{
+background-color:#ffffff; 
+text-align:center;
+margin-bottom:25px; margin-top:-15px; margin-left:3px;} 
+
+.navbar-brand img{width:150px; height:70px;}
+
+
+#topbar{text-align:right; background-color:white; margin:0px; color:#414141; float:none; border:none; border-bottom: 1px solid #1a1a1a; padding:10px; padding-bottom:12px; z-index:1;position:fixed;
+  width: 100%;}
+
+#MENU a {color:#414141; float:none; background:white;}
+
+#MENU button {
+background-color:white; color:#414141; border-bottom:1px solid #1a1a1a; }
+
+.r{font-size:100%; font-weight:bold; display:block; text-align:right; text-decoration:none; margin:0px; padding-top:10px; margin:1px;} 
+
+.r{
+  font-size:100%; 
+  font-weight:bold; 
+  display:block; 
+  text-align:right;  
+  text-decoration:none; 
+  padding-top:10px; 
+  margin:1px;} 
+
+
+
+
+.navbar-nav { 
+    display: inline-block;
+    float: none;
+}
+.navbar-collapse {
+    text-align: right;
+}
+
+.sloganwrap {background-image: url('https://s19.postimg.org/4e119a8sz/LSStone_Bkgnd.jpg'); background-repeat:repeat; background-size:cover;}
+
+#slogan {position:relative; font-family:'Poiret One', cursive; padding:20% 10%;
+text-align:center; background-color:white;opacity:0.56;font-weight:bold;}
+
+#divwrap {background-image: url('http://torange.biz/photo/2/2917/2917-FX-6-0-12-6-8-0.jpg'); background-size:cover; width:100%;}
+
+#about {width:100%; background-color:black; opacity:0.8;
+position:relativ; color:#414141; text-align:center; padding: 5% 10% 10%;}
+
+#about img {width:300px; height:200px; display:inline; margin:20px; -webkit-box-shadow:10px 10px 10px grey;  box-shadow: 10px 10px 10px grey; border: 1px solid grey; }
+
+#Abt1, #Abt2 {color:white; font-size:70%; padding:0% 10%;}
+#about .subtitle2{margin-bottom:10%; }
+#about h4 {font-family:"Poiret One", Georgia;font-size:180%;}
+
+#services
+{position:relative;right:0px; left:0px; margin:0px;text-align:center; color:#1a1a1a; padding-top:5%;}
+#carousel-example img {width:100%;}
+
+#minigallery img {width:100%; margin:8% auto; height:auto; border-radius: 5px;} 
+
+#minigallery img:hover {opacity:0.8;}
+
+#minigallery {margin-bottom:30px;}
+
+#testimonial {font-family: "Poiret One", cursive; margin-bottom:30px; margin-top:30px; text-align: left; padding:20px; color:#414141;} 
+  
+.blockquote {font-style:italic;background-color:#F7DA57; font-size:130%; font-weight:bold;}
+
+#testimonial footer {font-style:italic; color:#0f0ff; font-size:100%;padding-top:5%;}
+
+#contax {font-size:smaller; position:relative; right:0px; left:0px; bottom:0px; margin:0px; text-align:center; background-color:#1a1a1a; padding:10px 5px; color:white;}
+
+#testimonial a{color: #414141; text-align:center; font-size:160%;font-family:"Montserrat", cursive; text-decoration:none;}
+
+#testimonial a:hover{text-decoration:none;}
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+display: block;
+max-width: 100%;
+line-height: 1;
+height: 100%;
+}
+
+.fa {font-size:200%; margin:10px; color:white;}
+
+#contax a{text-decoration:none; color:white;}
+#contax a:hover, .fa:hover {color:grey;}
