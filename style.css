@@ -102,7 +102,7 @@ position:relativ; color:#414141; text-align:center; padding: 5% 10% 10%;}
 
 #about img {width:300px; height:200px; display:inline; margin:20px; -webkit-box-shadow:10px 10px 10px grey;  box-shadow: 10px 10px 10px grey; border: 1px solid grey; }
 
-#Abt1, #Abt2 {color:white; font-size:70%; padding:0% 10%;}
+#Abt1, #Abt2 {color:white; font-size:70%; padding:0 10%;}
 #about .subtitle2{margin-bottom:10%; }
 #about h4 {font-family:"Poiret One", Georgia;font-size:180%;}
 
